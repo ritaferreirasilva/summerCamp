@@ -3,10 +3,23 @@
   max-width: 1324px;
   margin: 0 auto 224px;
   padding-top: 45px;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.fold .background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.5;
 }
 
 .join-us {
-  margin-top: 210px;
+  padding-top: 210px;
+  position: relative;
 }
 
 .join-us .left {
@@ -16,6 +29,15 @@
 .join-us .right {
   grid-column-start: 5;
   grid-column-end: 13;
+}
+
+.join-us .title {
+  line-height: 106px;
+}
+
+.join-us .content {
+  position: relative;
+  z-index: 1;
 }
 
 .join-us .item {
