@@ -3,6 +3,9 @@ import "./Home.css";
 
 import { graphql } from "gatsby";
 import React, { Fragment } from "react";
+import { useAnimation, motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+
 import Testimonials from "../component/Testimonials";
 import FAQs from "../component/FAQs";
 import ProjectShowcase from "../component/ProjectShowcase";
