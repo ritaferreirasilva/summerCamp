@@ -147,6 +147,16 @@ body {
   padding: 14px 28px;
 }
 
+.button.is-white {
+  color: var(--color-white);
+  border-color: var(--color-white);
+}
+
+.button.is-white:hover {
+  background-color: var(--color-white);
+  color: var(--color-coral);
+}
+
 .Position-background {
   /* background-color: var(--color-blue); */
   position: relative;

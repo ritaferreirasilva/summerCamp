@@ -4,6 +4,7 @@ import Modal from "react-modal";
 import "./Nav.css";
 
 import logo from "../images/summercamp-logo.svg";
+import Button from "./Button";
 
 export default function Nav() {
   const [isMenuVisible, setMenuVisible] = useState(false);
@@ -147,9 +148,9 @@ export default function Nav() {
             </a>
           </div>
           <div>
-            <a href="/" className="button has-font-size-small has-text-white">
+            <Button href="/" el="a" variant="white">
               Join us
-            </a>
+            </Button>
           </div>
         </nav>
       </Modal>

@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../Button";
 
 export default function Onboard() {
   return (
@@ -11,9 +12,14 @@ export default function Onboard() {
           >
             We'd love to have <br /> you on board!
           </div>
-          <a href="/" className="button has-font-size-medium">
+          <Button
+            el="a"
+            href="/"
+            variant="white"
+            className="has-font-size-medium"
+          >
             Join us
-          </a>
+          </Button>
         </div>
       </div>
     </div>

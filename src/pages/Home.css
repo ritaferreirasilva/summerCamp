@@ -244,20 +244,6 @@
   pointer-events: none;
 }
 
-.onboard .button {
-  color: var(--color-white);
-  border-radius: 180px;
-  border: solid 1px var(--color-white);
-  padding: 28px 64px;
-  display: inline-block;
-  text-decoration: none;
-}
-
-.onboard .button:hover {
-  background-color: var(--color-white);
-  color: var(--color-coral);
-}
-
 .footer .left,
 .footer .right {
   margin-bottom: 56px;
