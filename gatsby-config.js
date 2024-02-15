@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: "Summer Camp",
     titleTemplate: "%s · Subvisual",
-    description: "An internship program at Subvisual.",
+    description:
+      "Join our Summer Camp program for a hands-on approach and real work experience with the support of a great team.",
     url: "https://subvisual.com",
     image: "/meta.png",
     twitterUsername: "@subvisual",

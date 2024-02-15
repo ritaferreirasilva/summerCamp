@@ -24,6 +24,10 @@ const SEO = ({ title, description, image, article }) => {
     url: `${siteUrl}${pathname}`,
   };
 
+  // TODO: remove when a new meta image is available
+  seo.image =
+    "https://uploads-ssl.webflow.com/60fec5603634b635fcde315a/611be73cdd558f7a0130a3c6_metaimg.png";
+
   return (
     <Helmet
       title={seo.title}
