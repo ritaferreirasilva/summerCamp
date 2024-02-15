@@ -61,7 +61,6 @@ module.exports = {
       },
       __key: "testimonials",
     },
-    "gatsby-plugin-netlify-cms",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
