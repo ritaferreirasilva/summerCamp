@@ -18,8 +18,8 @@ export default function Nav() {
         <div className="container">
           <div className="nav-content">
             <div className="brand">
-              <a href="/">
-                <img src={logo} alt="" />
+              <a href="/" aria-label="Summer Camp">
+                <img aria-hidden="true" src={logo} alt="" />
               </a>
             </div>
             <div className="menu">
@@ -44,8 +44,8 @@ export default function Nav() {
               <a className="has-font-size-small has-text-black" href="#faqs">
                 FAQ
               </a>
-              <a href="/" className="button is-small">
-                Join Us
+              <a href="/" className="button is-small" aria-label="Join us">
+                Join us
               </a>
             </div>
             <button
@@ -66,6 +66,7 @@ export default function Nav() {
         <nav className="nav">
           <div className="brand">
             <svg
+              aria-hidden="true"
               width="212"
               height="25"
               viewBox="0 0 212 25"
@@ -147,7 +148,11 @@ export default function Nav() {
             </a>
           </div>
           <div>
-            <a href="/" className="button has-font-size-small has-text-white">
+            <a
+              href="/"
+              className="button has-font-size-small has-text-white"
+              aria-label="Join us"
+            >
               Join us
             </a>
           </div>

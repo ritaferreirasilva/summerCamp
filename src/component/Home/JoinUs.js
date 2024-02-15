@@ -11,13 +11,16 @@ export default function JoinUs() {
 
           <div className="right">
             <div className="item">
-              <h2 className="title has-font-size-xlarge">
-                on a{" "}
-                <span className="has-text-blue has-font-family-secondary">
-                  hands-on
-                </span>{" "}
-                approach
-              </h2>
+              <h3 className="title has-font-size-xlarge">
+                <span class="sr-only">on a hands-on approach</span>
+                <span aria-hidden="true">
+                  on a{" "}
+                  <span className="has-text-blue has-font-family-secondary">
+                    hands-on
+                  </span>{" "}
+                  approach
+                </span>
+              </h3>
               <div className="text has-font-size-small">
                 <p>
                   We created SummerCamp back in 2016 as a way to foster talent,
@@ -29,14 +32,17 @@ export default function JoinUs() {
               </div>
             </div>
             <div className="item">
-              <h2 className="title has-font-size-xlarge">
-                <span>to get a </span>
-                <span className="has-text-blue has-font-family-secondary">
-                  real work
+              <h3 className="title has-font-size-xlarge">
+                <span class="sr-only">to get a real work experience</span>
+                <span aria-hidden="true">
+                  <span>to get a </span>
+                  <span className="has-text-blue has-font-family-secondary">
+                    real work
+                  </span>
+                  <br />
+                  <span>experience</span>
                 </span>
-                <br />
-                <span>experience</span>
-              </h2>
+              </h3>
               <div className="text has-font-size-small">
                 <p>
                   Whether you want to follow a career in technology or product,
@@ -47,12 +53,12 @@ export default function JoinUs() {
               </div>
             </div>
             <div className="item">
-              <h2 className="title has-font-size-xlarge ">
+              <h3 className="title has-font-size-xlarge ">
                 <span>with the support of</span> <span>a</span>{" "}
                 <span className="has-text-blue has-font-family-secondary">
                   great team
                 </span>
-              </h2>
+              </h3>
               <div className="text has-font-size-small">
                 <p>
                   Our team members will be your mentors during the entire
