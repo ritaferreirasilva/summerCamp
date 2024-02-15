@@ -6,7 +6,6 @@
   margin-top: 49px;
   position: relative;
   overflow: hidden;
-  min-height: 100vh;
 }
 
 .fold .background {
@@ -224,18 +223,11 @@
 }
 
 .onboard .title {
-  margin-top: 335px;
+  margin-top: 290px;
   margin-bottom: 70px;
 }
 
-.onboard .container .button {
-  margin-bottom: 112px;
-}
-
 .backgroundImage {
-  /* background-image: url("../images/ImageBackground.png"); 
-  background-position: right top;
-  background-repeat: no-repeat; */
   opacity: 0.9;
   mix-blend-mode: multiply;
   position: absolute;
